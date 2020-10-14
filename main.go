@@ -4,8 +4,11 @@ import "fmt"
 
 func main()  {
 	var e float32
-    e = 0
-    for i := 0; i < 30; i++ {
+	var infinito int
+
+	fmt.Scanln(&infinito)
+
+    for i := 0; i < infinito; i++ {
         e = e + 1/float32(factorial(i));
     }
     fmt.Println("e = ",e)
