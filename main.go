@@ -5,6 +5,7 @@ import "fmt"
 func main()  {
 	var e float32
 	var infinito int
+	e = 1
 
 	fmt.Scanln(&infinito)
 
