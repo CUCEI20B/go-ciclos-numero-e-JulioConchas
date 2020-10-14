@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+// prueba 05
+
 func main()  {
 	var e float32
 	var infinito int
